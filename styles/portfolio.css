@@ -88,9 +88,30 @@ nav li a {
 
 /* Main section styles */
 /* about section styless */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 .about {
   padding: 130px;
   border-radius: 10px;
   background: #fff8f3;
   margin: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;   
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: auto;
+   
+}
+.info-description{
+    font-weight: bolder;
+    margin: auto;
 }
